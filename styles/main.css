@@ -1,0 +1,140 @@
+body
+{
+    box-sizing: border-box;
+}
+body *
+{
+    box-sizing: border-box;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 68px 1fr 80px;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    /* background-color: pink; */
+}
+.first
+{
+    padding: 10px 20px 0 20px;
+}
+.first ul
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60px 60px 50px 50px 50px;
+    justify-content: flex-end;
+}
+.first ul li
+{
+    display: inline;
+    font-size: 13px;
+    text-align: center;
+}
+.first ul li img
+{
+    width: 20px;
+    height: 20px;
+}
+.first ul li img
+{
+    color: #999;
+}
+.first ul li a span
+{
+    display: inline-block;
+    font-size: 1.1rem;
+    width: 32px;
+    height: 32px;
+    background-color: purple;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+}
+.main img.logo
+{
+    margin: 130px auto 30px auto;
+    display: block;
+}
+.main .form
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main .form input
+{
+    background: url("../images/mic.svg") no-repeat right 14px center;
+    height: 44px;
+    width: 584px;
+    padding-left: 14px;
+    border-radius: 2px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.main .form input:focus
+{
+    outline-color: transparent;
+}
+.main .form input:hover, .main .form input:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 6px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;;
+}
+.main .buttons
+{
+    text-align: center;
+}
+.main .buttons .input
+{
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    color: rgb(117, 117, 117);
+    border: transparent;
+    padding: 10px 16px 0;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    cursor: pointer;
+    margin: 11px 2px;
+    border: 1px solid transparent;
+}
+.main .buttons .input:focus, .main .buttons .input:hover
+{
+    border: 1px solid #c6c6c6;
+    text-decoration: none;
+}
+.main .buttons .input:focus
+{
+    outline: none;
+}
+.third
+{
+    background-color: #f2f2f2;
+}
+.third .top
+{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    height: 40px;
+}
+.third .bottom
+{
+    padding-top: 6px;
+    padding-right: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.third .bottom span a
+{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.54);
+    padding-left: 30px;
+
+}
