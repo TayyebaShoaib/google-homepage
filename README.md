@@ -1,6 +1,7 @@
 # Creating The Google Homepage
 
 This project was created in accordance with [The Odin Project: HTML/CSS mini project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css).
+[My Attemp at Creating the Google Homepage](https://tayyebashoaib.github.io/google-homepage/)
 
 ## Details
 
