@@ -23,13 +23,15 @@
 
         <div class="main">
             <img class="logo" src="images/google.svg" alt="Google logo">
-            <div class="form">
-                <input type="text">
-            </div>
-            <div class="buttons">
-                <a class="input" href="https://www.google.com/">Google Search</a>
-                <a class="input" href="https://www.google.com/">I'm Feeling Lucky</a>
-            </div>
+            <form action="https://www.google.com/search?source=" method="get">
+                <div class="form">
+                    <input type="text" required="required" autocomplete="on">
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
         </div>
 
         <div class="third">

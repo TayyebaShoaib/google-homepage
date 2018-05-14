@@ -70,6 +70,7 @@ a:hover
 {
     background: url("../images/mic.svg") no-repeat right 14px center;
     height: 44px;
+    font-size: 16px;
     width: 584px;
     padding-left: 14px;
     border-radius: 2px;
@@ -88,13 +89,13 @@ a:hover
 {
     text-align: center;
 }
-.main .buttons .input
+.main .buttons input
 {
     display: inline-block;
     background-color: rgb(242, 242, 242);
     color: rgb(117, 117, 117);
     border: transparent;
-    padding: 10px 16px 0;
+    padding: 0px 16px 0;
     font-size: 13px;
     font-weight: bold;
     height: 36px;
@@ -102,12 +103,12 @@ a:hover
     margin: 11px 2px;
     border: 1px solid transparent;
 }
-.main .buttons .input:focus, .main .buttons .input:hover
+.main .buttons input:focus, .main .buttons input:hover
 {
     border: 1px solid #c6c6c6;
     text-decoration: none;
 }
-.main .buttons .input:focus
+.main .buttons input:focus
 {
     outline: none;
 }
